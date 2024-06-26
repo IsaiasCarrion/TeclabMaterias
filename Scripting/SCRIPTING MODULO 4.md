@@ -127,7 +127,7 @@ if condición:
     # Bloque de código a ejecutar si la condición es True
 else:
     # Bloque de código a ejecutar si la condición es False
-    
+
 #EJEMPLO
 numero = 5
 
@@ -166,7 +166,7 @@ elif numero >= 3:
     print("La variable está entre 3 y 6")
 else:
 		# Si el valor de la variable "numero" no es 10, no es mayor a 6 ni mayor o igual a 3, se ejecuta la instrucción else y se imprime el mensaje "La variable es menor a 3".
-    print("La variable es menor a 3")   
+    print("La variable es menor a 3")
 
 ```
 
@@ -257,7 +257,7 @@ for i in range(start, stop, step):
 
 for i in range(1, 6):
     print(i)
-    
+
 # Iteración sobre una lista:
 nombres = ["Juan", "María", "Pedro"]
 
@@ -265,7 +265,7 @@ nombres = ["Juan", "María", "Pedro"]
 for nombre in nombres:
     # Dentro del ciclo, se imprime un saludo personalizado para cada nombre
     print(f"Hola, {nombre}"
-    
+
 # Iteración sobre un diccionario:
 persona = {"nombre": "Juan", "edad": 30, "ciudad": "Buenos Aires"}
 

@@ -17,9 +17,9 @@ Cada tipo de variable tiene sus propias características y se utiliza para almac
 
 Las variables se declaran utilizando el nombre de la variable seguido del signo de igual (=) y el valor que se le quiere asignar
 
-Enteros (int): como su nombre indica, son números enteros. Es decir, un número sin parte fraccionaria o decimal. 
-Flotante (float): a diferencia del tipo de dato anterior, un número flotante contiene (o es capaz de contener) una componente fraccionaria. 
-Cadena de texto (str): las cadenas se utilizan cuando se desea o se necesita procesar texto en lugar de números. Siempre se debe usar comillas (ya sea doble o simple) para definir. 
+Enteros (int): como su nombre indica, son números enteros. Es decir, un número sin parte fraccionaria o decimal.
+Flotante (float): a diferencia del tipo de dato anterior, un número flotante contiene (o es capaz de contener) una componente fraccionaria.
+Cadena de texto (str): las cadenas se utilizan cuando se desea o se necesita procesar texto en lugar de números. Siempre se debe usar comillas (ya sea doble o simple) para definir.
 Booleanos (bool): este tipo de dato solo acepta dos valores posibles, “True” o “False”. Los valores booleanos son útiles principalmente para evaluar si una condición se cumple o no, y actuar en consecuencia al resultado.
 Valor nulo (none): el valor nulo no es realmente un tipo de dato en sí, pero vale la pena mencionarlo dentro de esta clasificación. Su uso aplica principalmente cuando se desea especificar que una variable no tiene valor, y asignarle el valor 0 o -1 sería algo ambiguo. En esos escenarios, este objetivo se puede cumplir asignando el valor “None”.
 
@@ -191,7 +191,7 @@ def nombre_funcion(argumento1, argumento2):
     # Bloque de código de la función
     pass
 
-# EJEMPLO 
+# EJEMPLO
 def calcular_area_rectangulo(base, altura):
     """
     Calcula el área de un rectángulo.
@@ -240,7 +240,7 @@ def nombre_funcion(argumento1, argumento2):
 
     # Devolver el valor
     return valor_a_devolver
-   
+
 # EJEMPLO
 def calcular_area_triangulo(base, altura):
     """
